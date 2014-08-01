@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>minimum javascript test example</title>
+
+	<!-- 汎用ライブラリ -->
+	<script src="jquery-2.0.3.min.js"></script>
+
+	<!-- テストフレームワーク -->
+	<link rel="stylesheet" href="test/mocha.css" />
+	<script src="test/mocha.js"></script>
+	<script src="test/chai.js"></script>
+
+	<!-- テスト対象プログラム -->
+	<script src="main.js"></script>
+
+	<!-- テスト本体 -->
+	<script src="test/test.js"></script>
+</head>
+
+<body>
+	<!-- テスト結果出力用エレメント -->
+	<div id="mocha"></div>
+
+	<!-- アプリ本体のエレメント -->
+	<div id="message"></div>
+</body>
+</html>
