@@ -15,7 +15,7 @@ MinimumJsTest
 
 使用しているJSライブラリを再取得する場合は以下から。  
 jQuery: http://jquery.com/  
-Mocha: http://visionmedia.github.io/mocha/  
+Mocha: http://mochajs.org/  
 Chai: http://chaijs.com/
 
 jquery-x.x.x.min.js、mocha.js、mocha.css、chai.js の4ファイルのみ使用します。
